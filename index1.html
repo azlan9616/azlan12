@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azlan Paradise</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <span class="gold">Azlan</span> <span class="black">Paradise</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Slider -->
+  <section class="hero-slider" id="home">
+    <div class="slider">
+      <div class="slide active" style="background-image: url('https://static.tildacdn.com/tild3532-3033-4132-a264-336130313130/7463019b2d3af9f29caa.jpg');"> <h2>Welcome to Azlan Paradise</h2>
+        <p>Experience luxury like never before.</p></div>
+      <div class="slide" style="background-image: url('https://ak-d.tripcdn.com/images/0222n12000a908k4g8D03_R_960_660_R5_D.jpg');"> <h2>Discover Our Rooms</h2>
+        <p>Indulge in comfort and elegance.</p></div>
+      <div class="slide" style="background-image: url('https://cdn.worldota.net/t/x500/content/dc/8c/dc8ca038fcd1385d03d04a4bf7121816cedecf0e.jpeg');"><h2>Book Your Stay</h2>
+        <p>Your dream vacation starts here.</p></div>
+    </div>
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+  </section>
+  
+
+
+  <!-- Cards Section -->
+  <section class="cards" id="rooms">
+    <h2>Our Rooms</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/2a/97/20/2a97205ef678a553f0cd1d25ba1bf61e.jpg" alt="Room 1">
+        <h3>Deluxe Room</h3>
+        <p>Experience luxury with our deluxe rooms.</p>
+      </div>
+      <div class="card">
+        <img src="https://cache.marriott.com/content/dam/marriott-renditions/BKKXR/bkkxr-room-0524-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*" alt="Room 2">
+        <h3>Suite Room</h3>
+        <p>Indulge in our spacious suite rooms.</p>
+      </div>
+      <div class="card">
+        <img src="https://chopstixandthecity.com/wp-content/uploads/2013/12/bedside-tablets.jpg" alt="Room 3">
+        <h3>Executive Room</h3>
+        <p>Perfect for business travelers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews" id="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="review-container">
+      <div class="review">
+        <p>"Amazing experience! The staff was very friendly and the rooms were luxurious."</p>
+        <h4>- Khalid Khan</h4>
+      </div>
+      <div class="review">
+        <p>"Best hotel I've ever stayed in. Highly recommended!"</p>
+        <h4>- Saifi Khan</h4>
+      </div>
+    </div>
+  </section>
+  <!-- About Us Section -->
+  <section class="about-us" id="about">
+    <h2>About Us</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          Welcome to <span class="gold">Azlan Paradise</span>, where luxury meets comfort. Nestled in the heart of the city, our hotel offers a unique blend of modern amenities and timeless elegance. Whether you're here for business or leisure, we ensure an unforgettable experience.
+        </p>
+        <p>
+          Our mission is to provide exceptional service, world-class facilities, and a warm, welcoming atmosphere. From our spacious rooms to our fine dining restaurants, every detail is designed to make your stay extraordinary.
+        </p>
+        <p>
+          At Azlan Paradise, we believe in creating memories that last a lifetime. Come, be our guest, and let us take care of the rest.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="about-us.jpg" alt="About Us">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="footer-content">
+      <div class="footer-form">
+        <h3>Register for Updates</h3>
+        <form class="registration-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>Insta info@: @azlan___320</p>
+        <p>Email info@: azlanshahanshah@gmail.com</p>
+      </div>
+    </div>
+    <p class="footer-bottom">&copy; 2023 Azlan Paradise. All rights reserved.</p>
+  </footer>
+
+  <script src="script1.js"></script>
+</body>
+</html>
